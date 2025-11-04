@@ -4,6 +4,8 @@ This is a minimal project which uses some device header files provided by ST to 
 
 The example project initializes pin C14 as input with a built-in pull-up resistor; it listens for button presses on a button connected to ground. pin C13 is set to push-pull output, and it is connected to a built-in LED on ST's "Blue pill" board. 
 
+![electrial_schema](images/electical_sch.png)
+
 # Uploading and Debugging
 
 A Makefile is provided, and I've tested the program with a 'Blue pill' board using the STM32F103C6T8 chip. To upload the resulting program, you can use your choice of uploader. I use Texane's "stlink" project:
