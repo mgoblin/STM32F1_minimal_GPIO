@@ -44,6 +44,7 @@ LFLAGS += -T$(LSCRIPT)
  
 AS_SRC   =  ./src/startup_stm32f103x6.s
 C_SRC    =  ./src/system_stm32f1xx.c
+C_SRC    += ./src/syscalls.c
 C_SRC    += ./src/main.c
 
 INCLUDE  += -I./device_headers
