@@ -5,13 +5,12 @@ LD_SCRIPT = STM32F103X6_FLASH.ld
 MCU_SPEC  = cortex-m3
 
 # Toolchain definitions (ARM bare metal defaults)
-TOOLCHAIN = /usr
-CC = $(TOOLCHAIN)/bin/arm-none-eabi-gcc
-AS = $(TOOLCHAIN)/bin/arm-none-eabi-as
-LD = $(TOOLCHAIN)/bin/arm-none-eabi-ld
-OC = $(TOOLCHAIN)/bin/arm-none-eabi-objcopy
-OD = $(TOOLCHAIN)/bin/arm-none-eabi-objdump
-OS = $(TOOLCHAIN)/bin/arm-none-eabi-size
+CC = arm-none-eabi-gcc
+AS = arm-none-eabi-as
+LD = arm-none-eabi-ld
+OC = arm-none-eabi-objcopy
+OD = arm-none-eabi-objdump
+OS = arm-none-eabi-size
 
 # Assembly directives.
 ASFLAGS += -c
