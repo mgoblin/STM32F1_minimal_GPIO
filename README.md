@@ -1,3 +1,5 @@
+[![Build](https://github.com/mgoblin/STM32F1_minimal_GPIO/actions/workflows/c.yml/badge.svg)](https://github.com/mgoblin/STM32F1_minimal_GPIO/actions/workflows/c.yml)
+
 # Overview
 
 This is a minimal project which uses some device header files provided by ST to give us access to convenient aliases for peripheral registers.
